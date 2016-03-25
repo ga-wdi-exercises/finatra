@@ -1,1 +1,5 @@
-<h2>About the <%= @fish %></h2>
+<h1>About the <%= @fish.name.capitalize %></h1>
+
+<img class="img-responsive img-rounded" src="<%= @fish.image_url %>" alt="<%= @fish.name %>" />
+
+<p><%= @fish.description %></p>
