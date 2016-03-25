@@ -8,3 +8,19 @@
   </tr>
   <% end %>
 </table>
+
+<form method="post" action="/">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input id="name" name="name" class="form-control" placeholder="Name" />
+  </div>
+  <div class="form-group">
+    <label for="image_url">Image URL</label>
+    <input id="image_url" name="image_url" class="form-control" placeholder="Image URL" />
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea name="description" class="form-control" placeholder="Description"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Log a new fish</button>
+</form>
